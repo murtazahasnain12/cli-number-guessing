@@ -1,0 +1,30 @@
+{
+  "name": "ra123-cli-number-guessing",
+  "version": "1.0.1",
+  "description": "This cli based number guessing game",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murtazahasnain12/cli-number-guessing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/murtazahasnain12/cli-number-guessing/issues"
+  },
+  "homepage": "https://github.com/murtazahasnain12/cli-number-guessing#readme",
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
